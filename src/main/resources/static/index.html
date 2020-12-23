@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Calculo de tabla de amortizacion</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+    
+</head>
+<body>
+    <form action="/obtenerAmortizacion" method="post">
+		 <label for="fname">Monto:</label><br>
+		 <input type="text" id="monto" name="monto" ><br>
+		 <label for="lname">Meses a pagar:</label><br>
+		 <input type="text" id="numPagos" name="numPagos"><br><br>
+		 <input type="submit" value="Submit">
+	</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
